@@ -13,11 +13,11 @@ int main(void)
 	long long int largo2;
 	float decimal;
 
-	printf("Size of char: %ld\n", sizeof(caracter));
-	printf("Size of int: %ld\n", sizeof(entero));
-	printf("Size of long int: %ld\n", sizeof(largo1));
-	printf("Size of long long int: %ld\n", sizeof(largo2));
-	printf("Size of float: %ld\n", sizeof(decimal));
+	printf("Size of char: %ld byte(s)\n", sizeof(caracter));
+	printf("Size of int: %ld byte(s)\n", sizeof(entero));
+	printf("Size of long int: %ld byte(s)\n", sizeof(largo1));
+	printf("Size of long long int: %ld byte(s)\n", sizeof(largo2));
+	printf("Size of float: %ld byte(s)\n", sizeof(decimal));
 	return (0);
 }
 
