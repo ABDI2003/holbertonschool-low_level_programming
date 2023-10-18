@@ -12,14 +12,13 @@
 int main(void)
 {
 	int n;
+	int last_digit;
+	char myString[14];
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
 
-	int last_digit = n % 10;
-
-	char myString[14];
+	last_digit = n % 10;
 
 	strcpy(myString, "Last digit of");
 	if (n > 5)
