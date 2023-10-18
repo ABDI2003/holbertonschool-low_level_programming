@@ -1,0 +1,2 @@
+#1/bin/bash
+echo -n "Nombre del script: "; read script_name; echo -e "#!/bin/bash\n" > "$script_name" ; chmod 700 "$script_name"; vim "$script_name";
