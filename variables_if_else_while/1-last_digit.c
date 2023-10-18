@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	int last_digit;
+	int lastDigit;
 	char myString[50];
 
 	srand(time(0));
@@ -29,7 +29,7 @@ int main(void)
 	{
 		printf("%s %d is %d and is 0\n", myString, n, lastDigit);
 	}
-	if (last_digit < 6 && last_digit != 0)
+	if (lastDigit < 6 && lastDigit != 0)
 	{
 		printf("%s %d is %d and is less than 6 and not 0\n", myString, n, lastDigit);
 	}
