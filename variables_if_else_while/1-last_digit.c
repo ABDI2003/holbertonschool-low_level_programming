@@ -18,20 +18,20 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	last_digit = n % 10;
+	lastDigit = n % 10;
 
 	strcpy(myString, "Last digit of");
-	if (last_digit > 5)
+	if (lastDigit > 5)
 	{
-		printf("%s %d is %d and is greater than 5\n", myString, n, last_digit);
+		printf("%s %d is %d and is greater than 5\n", myString, n, lastDigit);
 	}
-	else if (last_digit == 0)
+	else if (lastDigit == 0)
 	{
-		printf("%s %d is %d and is 0\n", myString, n, last_digit);
+		printf("%s %d is %d and is 0\n", myString, n, lastDigit);
 	}
 	if (last_digit < 6 && last_digit != 0)
 	{
-		printf("%s %d is %d and is les than 6 and not 0\n", myString, n, last_digit);
+		printf("%s %d is %d and is less than 6 and not 0\n", myString, n, lastDigit);
 	}
 
 	return (0);
