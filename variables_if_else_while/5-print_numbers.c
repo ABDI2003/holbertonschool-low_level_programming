@@ -9,7 +9,8 @@
 int main(void)
 {
 	int numero;
-	for (numero = 0; numero < 10; numero++)
+
+	for (numero = 0; numero <= 9; numero++)
 	{
 		printf("%d", numero);
 	}
