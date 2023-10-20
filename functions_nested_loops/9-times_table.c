@@ -1,17 +1,22 @@
 #include "main.h"
 
+/**
+ * times_table - void
+ * times_table - Prints the 9 times table starting with 0.
+ */
+
 void times_table(void)
 {
 	int i;
 	int j;
 	int multiplicado;
 
-	for (int i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (int j = 0; j < 10; j++)
+		for (j = 0; j < 10; j++)
 		{
 			multiplicado = i * j;
-			
+
 			if (j != 0)
 			{
 				_putchar(',');
@@ -30,5 +35,6 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-	}	
+	}
 }
+
